@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body class="bg-yellow">
+		<main>
+			<section class="flex justify-center mb-82">
+				<div>
+					<div class="flex justify-center">
+                        <a href="/html/index.html"><img class="mt-13 mb-18" src="/img/pokemon_logo 1.svg" alt="" /></a>
+					</div>
+					<div class="flex gap-8.5 justify-center">
+						<div
+							class="flex gap-2.5 border-2 border-black rounded-1.5xl py-4 px-20 bg-white"
+						>
+							<p class="font-bold text-2xl">Gross</p>
+							<img src="/img/chevron-down.svg" alt="" />
+						</div>
+						<form>
+							<div
+								class="flex gap-2.5 border-2 border-black rounded-1.5xl py-4 px-7.5 bg-white"
+							>
+								<input
+									class="outline-none font-bold text-2xl"
+									type="text"
+									placeholder="Search"
+								/>
+								<img src="/img/search.svg" alt="" />
+							</div>
+						</form>
+						<div
+							class="flex gap-2.5 border-2 border-black rounded-1.5xl py-4 px-20 bg-white"
+						>
+							<p class="font-bold text-2xl">Aa-Zz</p>
+							<img src="/img/chevron-down.svg" alt="" />
+						</div>
+						<button
+							class="flex gap-2.5 border-2 border-black rounded-1.5xl py-4 px-20 bg-white font-bold text-2xl"
+						>
+							Button
+						</button>
+					</div>
+                    <div class="grid grid-cols-4 gap-7.5">
+                    <div class="border-2 border-black bg-white rounded-2.5xl mt-26">
+                        <img class="px-18.5 pt-7.5 pb-16.5" src="http://www.serebii.net/pokemongo/pokemon/001.png" alt="Bulbasaur">
+                        <div class="bg-black h-1"></div>
+                        <div class="flex justify-between px-7.5 pt-5">
+                            <p class="font-bold text-2xl leading-7">Bulbasaur</p>
+                            <img id="heart" class="heart" onclick="toggleHeartBackgroundColor(event)" src="/img/heart.svg" alt="">
+                        </div>
+                        <p class="px-7.5 font-medium text-xl leading-6">Grass, Poison</p>
+                        <div class="flex gap-7.5 px-7.5 font-bold text-2xl leading-7 mt-6.5 mb-9">
+                            <p>6.9 kg</p>
+                            <p>99 age</p>
+                        </div>
+                    </div>
+                    <div class="border-2 border-black bg-white rounded-2.5xl mt-26">
+                        <img class="px-18.5 pt-7.5 pb-16.5" src="http://www.serebii.net/pokemongo/pokemon/002.png" alt="Ivysaur">
+                        <div class="bg-black h-1"></div>
+                        <div class="flex justify-between px-7.5 pt-5">
+                            <p class="font-bold text-2xl leading-7">Ivysaur</p>
+                            <img id="heart" class="heart" onclick="toggleHeartBackgroundColor(event)" src="/img/heart.svg" alt="">
+                        </div>
+                        <p class="px-7.5 font-medium text-xl leading-6">Grass, Poison</p>
+                        <div class="flex gap-7.5 px-7.5 font-bold text-2xl leading-7 mt-6.5 mb-9">
+                            <p>6.9 kg</p>
+                            <p>99 age</p>
+                        </div>
+                    </div>
+                    <div class="border-2 border-black bg-white rounded-2.5xl mt-26">
+                        <img class="px-18.5 pt-7.5 pb-16.5" src="http://www.serebii.net/pokemongo/pokemon/003.png" alt="Venusaur">
+                        <div class="bg-black h-1"></div>
+                        <div class="flex justify-between px-7.5 pt-5">
+                            <p class="font-bold text-2xl leading-7">Venusaur</p>
+                            <img id="heart" class="heart" onclick="toggleHeartBackgroundColor(event)" src="/img/heart.svg" alt="">
+                        </div>
+                        <p class="px-7.5 font-medium text-xl leading-6">Grass, Poison</p>
+                        <div class="flex gap-7.5 px-7.5 font-bold text-2xl leading-7 mt-6.5 mb-9">
+                            <p>6.9 kg</p>
+                            <p>99 age</p>
+                        </div>
+                    </div>
+                    <div class="border-2 border-black bg-white rounded-2.5xl mt-26">
+                        <img class="px-18.5 pt-7.5 pb-16.5" src="http://www.serebii.net/pokemongo/pokemon/004.png" alt="Charmander">
+                        <div class="bg-black h-1"></div>
+                        <div class="flex justify-between px-7.5 pt-5">
+                            <p class="font-bold text-2xl leading-7">Charmander</p>
+                            <img id="heart" class="heart" onclick="toggleHeartBackgroundColor(event)" src="/img/heart.svg" alt="">
+                        </div>
+                        <p class="px-7.5 font-medium text-xl leading-6">Grass, Poison</p>
+                        <div class="flex gap-7.5 px-7.5 font-bold text-2xl leading-7 mt-6.5 mb-9">
+                            <p>6.9 kg</p>
+                            <p>99 age</p>
+                        </div>
+                    </div>
+                    <div class="border-2 border-black bg-white rounded-2.5xl">
+                        <img class="px-18.5 pt-7.5 pb-16.5" src="http://www.serebii.net/pokemongo/pokemon/005.png" alt="Charmeleon">
+                        <div class="bg-black h-1"></div>
+                        <div class="flex justify-between px-7.5 pt-5">
+                            <p class="font-bold text-2xl leading-7">Charmeleon</p>
+                            <img id="heart" class="heart" onclick="toggleHeartBackgroundColor(event)" src="/img/heart.svg" alt="">
+                        </div>
+                        <p class="px-7.5 font-medium text-xl leading-6">Grass, Poison</p>
+                        <div class="flex gap-7.5 px-7.5 font-bold text-2xl leading-7 mt-6.5 mb-9">
+                            <p>6.9 kg</p>
+                            <p>99 age</p>
+                        </div>
+                    </div>
+                    <div class="border-2 border-black bg-white rounded-2.5xl">
+                        <img class="px-18.5 pt-7.5 pb-16.5" src="http://www.serebii.net/pokemongo/pokemon/006.png" alt="Charizard">
+                        <div class="bg-black h-1"></div>
+                        <div class="flex justify-between px-7.5 pt-5">
+                            <p class="font-bold text-2xl leading-7">Charizard</p>
+                            <img id="heart" class="heart" onclick="toggleHeartBackgroundColor(event)" src="/img/heart.svg" alt="">
+                        </div>
+                        <p class="px-7.5 font-medium text-xl leading-6">Grass, Poison</p>
+                        <div class="flex gap-7.5 px-7.5 font-bold text-2xl leading-7 mt-6.5 mb-9">
+                            <p>6.9 kg</p>
+                            <p>99 age</p>
+                        </div>
+                    </div>
+                    <div class="border-2 border-black bg-white rounded-2.5xl">
+                        <img class="px-18.5 pt-7.5 pb-16.5" src="http://www.serebii.net/pokemongo/pokemon/007.png" alt="Squirtle">
+                        <div class="bg-black h-1"></div>
+                        <div class="flex justify-between px-7.5 pt-5">
+                            <p class="font-bold text-2xl leading-7">Squirtle</p>
+                            <img id="heart" class="heart" onclick="toggleHeartBackgroundColor(event)" src="/img/heart.svg" alt="">
+                        </div>
+                        <p class="px-7.5 font-medium text-xl leading-6">Grass, Poison</p>
+                        <div class="flex gap-7.5 px-7.5 font-bold text-2xl leading-7 mt-6.5 mb-9">
+                            <p>6.9 kg</p>
+                            <p>99 age</p>
+                        </div>
+                    </div>
+                    <div class="border-2 border-black bg-white rounded-2.5xl">
+                        <img class="px-18.5 pt-7.5 pb-16.5" src="http://www.serebii.net/pokemongo/pokemon/008.png" alt="Wartortle">
+                        <div class="bg-black h-1"></div>
+                        <div class="flex justify-between px-7.5 pt-5">
+                            <p class="font-bold text-2xl leading-7">Wartortle</p>
+                            <img id="heart" class="heart" onclick="toggleHeartBackgroundColor(event)"  src="/img/heart.svg" alt="">
+                        </div>
+                        <p class="px-7.5 font-medium text-xl leading-6">Grass, Poison</p>
+                        <div class="flex gap-7.5 px-7.5 font-bold text-2xl leading-7 mt-6.5 mb-9">
+                            <p>6.9 kg</p>
+                            <p>99 age</p>
+                        </div>
+                    </div>
+                </div>
+				</div>
+                <div class="my-11">
+                    <img class="w-12.5 h-12.5" id="main-heart" onclick="showHeartModal()" src="/img/heart.svg" alt="">
+                    <div id="heart-modal" class="hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50"> <!-- Ekran o'rtasida markazlashtirish uchun -->
+                        <div class="bg-white p-8 rounded-lg relative">
+                          <button onclick="closeHeartModal()" class="absolute top-2 right-2 text-gray-700 text-xl">&times;</button>
+                          <h2 class="text-2xl font-bold mb-4">Qizilga aylangan yuraklar</h2>
+                          <div id="red-hearts" class="flex flex-wrap gap-4"></div> <!-- Qizil yuraklar uchun joy -->
+                        </div>
+                      </div>
+                </div>
+			</section>
+		</main>
+
+		<script src="/script/pakemon.js"></script>
+		<script src="/script/script.js"></script>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							yellow: {
+								DEFAULT: '#FFD845',
+							},
+							white: {
+								DEFAULT: '#FFFFFF',
+							},
+							black: {
+								DEFAULT: '#000000',
+							},
+						},
+						margin: {
+                            6.5: '25px',
+							13: '50px',
+							18: '70px',
+                            26: '100px',
+                            82: '334px',
+						},
+						borderRadius: {
+							'1.5xl': '15px',
+                            '2.5xl': '20px',
+						},
+						gap: {
+                            7.5: '30px',
+							8.5: '35px',
+						},
+						padding: {
+							7.5: '30px',
+                            16.5: '68px',
+                            18.5: '75px',
+						},
+                        width: {
+                            '12.5': '50px'
+                        },
+                        hight: {
+                            '12.5': '50px'
+                        },
+					},
+				},
+			};
+		</script>
+	</body>
+</html>
